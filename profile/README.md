@@ -1,142 +1,121 @@
-<!-- VeriGPT GitHub Tanıtım Sayfası -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VeriGPT - Açık Kaynak Yapay Zeka Destekli Veri Analiz Platformu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      line-height: 1.7;
+      color: #333;
+    }
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    hr {
+      margin: 30px 0;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
 
-<h1 align="center">📊 VeriGPT: Açık Kaynak Veri Analiz Asistanı</h1>
+  <h1>📊 VeriGPT - Yapay Zeka Destekli Veri Analiz Platformu</h1>
+  <p>
+    <strong>VeriGPT</strong>, kullanıcıların CSV ve Excel gibi veri dosyalarını analiz edebilmesine ve bu verileri anlamlı hale getirmesine olanak tanıyan <strong>açık kaynaklı bir yapay zeka platformudur</strong>.
+    Platform, teknik bilgiye sahip olmayan kullanıcıların bile verilerle kolayca içgörü elde etmesini sağlamak amacıyla geliştirilmiştir.
+  </p>
 
-<p align="center"><strong>CSV ve Excel dosyalarınızı yapay zeka ile analiz edin, görselleştirin ve anlamlandırın.</strong></p>
+  <hr />
 
-<p align="center">
-  <strong>🌍 Açık kaynak • 🚀 Hızlı • 🔒 Güvenli • 🧠 Yapay Zeka Destekli</strong><br/>
-  <em>v1.0.0 • Son Güncelleme: Haziran 2025</em>
-</p>
+  <h2>🎯 Projenin Amacı</h2>
+  <p>
+    VeriGPT’nin temel amacı, veri analizi sürecini herkes için erişilebilir ve anlaşılır hale getirmektir. 
+    Geleneksel veri analiz araçları çoğu zaman karmaşık arayüzlere ve teknik bilgiye ihtiyaç duyar. VeriGPT, doğal dil işleme ve yapay zeka teknolojilerini birleştirerek bu süreci basitleştirir.
+  </p>
 
-<hr/>
+  <hr />
 
-<h2>📌 Proje Hakkında</h2>
+  <h2>🌟 Vizyon</h2>
+  <p>
+    VeriGPT’nin vizyonu, veri okuryazarlığını herkes için artırmak ve veriye dayalı karar alma süreçlerini demokratikleştirmektir. 
+    Uzman olmayan kullanıcıların bile verilerden anlamlı sonuçlar çıkarabildiği bir dijital dünyayı mümkün kılmayı hedefliyoruz.
+  </p>
 
-<p><strong>VeriGPT</strong>, veriyi sadece okumakla kalmayıp anlamlandırabilen yeni nesil bir analiz aracıdır. CSV ve Excel dosyalarını yapay zeka destekli bir arayüzle analiz etmenizi sağlar.</p>
+  <hr />
 
-<ul>
-  <li>Doğal dilde veri analizi</li>
-  <li>Otomatik grafik oluşturma</li>
-  <li>Tarayıcıda çalışan, veri gizliliğini ön planda tutan yapı</li>
-</ul>
+  <h2>⚙️ Kullanılan Teknolojiler</h2>
+  <ul>
+    <li><strong>Frontend:</strong> React 18, TypeScript, Vite</li>
+    <li><strong>UI:</strong> Tailwind CSS, shadcn/ui</li>
+    <li><strong>Yapay Zeka:</strong> Google Gemini API (doğal dil işleme)</li>
+    <li><strong>Grafikler:</strong> Chart.js (çizgi, çubuk, pasta, dağılım grafikleri)</li>
+    <li><strong>Dosya İşleme:</strong> CSV ve Excel (XLS, XLSX) parser kütüphaneleri</li>
+  </ul>
 
-<p>Veri bilimiyle uğraşan geliştiriciler, öğrenciler, araştırmacılar ve iş analistleri için pratik bir çözümdür.</p>
+  <hr />
 
-<hr/>
+  <h2>🚀 Temel Faydalar</h2>
+  <ul>
+    <li><strong>Doğal Dil ile Sorgulama:</strong> Kullanıcılar, “Bu yıl en çok satış hangi ayda yapılmış?” gibi sorular sorarak veriyi analiz edebilir.</li>
+    <li><strong>Tarayıcı Tabanlı Gizli İşlem:</strong> Verileriniz cihazınızda işlenir; gizlilik korunur, hiçbir veri dışarıya gönderilmez.</li>
+    <li><strong>Görselleştirme:</strong> Otomatik grafik üretimi ile veriler daha anlaşılır hale gelir.</li>
+    <li><strong>Kullanım Kolaylığı:</strong> Teknik bilgi gerektirmeyen kullanıcı dostu bir arayüz.</li>
+    <li><strong>Açık Kaynak:</strong> MIT lisansı ile geliştirici topluluğuna tamamen açık.</li>
+  </ul>
 
-<h2>🎯 Amaç ve Vizyon</h2>
+  <hr />
 
-<p>
-<strong>VeriGPT</strong>'nin temel amacı, yapay zekayı veri analiziyle birleştirerek teknik bilgiye sahip olmayan kullanıcıların bile verileri kolayca anlayabilmesini sağlamaktır.
-</p>
+  <h2>💡 Kullanım Senaryoları</h2>
+  <ul>
+    <li>Öğrenciler için veri analiz projelerinde hızlı içgörü elde etme</li>
+    <li>KOBİ’lerin satış ya da müşteri verilerini analiz etmesi</li>
+    <li>Akademik araştırmalarda tablo verilerinin hızlı yorumlanması</li>
+    <li>Raporlama süreçlerinde otomatik grafik oluşturma</li>
+  </ul>
 
-<p>
-<strong>Vizyonumuz:</strong> Açık kaynak ruhuyla, veri okuryazarlığını artırmak ve herkes için erişilebilir kılmak.
-</p>
+  <hr />
 
-<hr/>
+  <h2>🤝 Katkı Sağlamak</h2>
+  <p>
+    VeriGPT topluluğa açıktır! Yeni özellikler eklemek, hataları düzeltmek veya dokümantasyonu geliştirmek isterseniz katkı sağlamaktan memnuniyet duyarız.
+  </p>
+  <ol>
+    <li>Repository'yi <strong>fork</strong> edin</li>
+    <li>Kendi branch’inizi oluşturun</li>
+    <li>Geliştirmelerinizi yapın ve commit edin</li>
+    <li>Pull request gönderin 🚀</li>
+  </ol>
 
-<h2>✨ Temel Özellikler</h2>
+  <hr />
 
-<ul>
-  <li><strong>Dosya Yükleme:</strong> Sürükle-bırak ile hızlı yükleme, akıllı sütun önizleme</li>
-  <li><strong>Yapay Zeka Destekli Sorgu:</strong> Verinize doğal dilde sorular sorun</li>
-  <li><strong>Grafik Üretici:</strong> Çizgi, çubuk, pasta ve dağılım grafikleri</li>
-  <li><strong>Gizlilik:</strong> Tüm işlemler cihazınızda, sunucuya veri aktarımı yok</li>
-</ul>
+  <h2>🔒 Lisans</h2>
+  <p>
+    Bu proje <strong>MIT Lisansı</strong> ile lisanslanmıştır. <br />
+    Açık kaynak kodlu olması nedeniyle eğitim ve araştırma amaçlı herkesin kullanımına açıktır. 
+    Ticari kullanım için detaylara <code>LICENSE</code> dosyasından ulaşabilirsiniz.
+  </p>
 
-<hr/>
+  <hr />
 
-<h2>🚀 Kurulum</h2>
+  <h2>📬 İletişim</h2>
+  <p>
+    Görüş, öneri ya da katkı için bizimle iletişime geçin: <a href="mailto:irfansemihdogru@outlook.com">irfansemihdogru@outlook.com</a><br/>
+    <strong>Proje Sahibi:</strong> İrfan Semih Doğru
+  </p>
 
-<pre><code># Repository'yi klonlayın
-git clone https://github.com/Veri-GPT/Veri-GPT
-cd verigpt
-
-# Bağımlılıkları yükleyin
-npm install
-
-# Uygulamayı başlatın
-npm run dev
-</code></pre>
-
-<p><strong>Not:</strong> Uygulama <code>http://localhost:8080</code> üzerinde çalışacaktır.</p>
-
-<hr/>
-
-<h2>🔌 Gemini API Entegrasyonu</h2>
-
-<ol>
-  <li><a href="https://makersuite.google.com/app/apikey" target="_blank">Gemini API anahtarınızı alın</a></li>
-  <li>Proje dizinindeki <code>.env</code> dosyasına şu satırı ekleyin:</li>
-</ol>
-
-<pre><code>VITE_GEMINI_API_KEY=YOUR_API_KEY</code></pre>
-
-<p>✔️ Artık VeriGPT'yi yapay zeka destekli olarak kullanmaya hazırsınız!</p>
-
-<hr/>
-
-<h2>🧠 Kullanılan Teknolojiler</h2>
-
-<ul>
-  <li><strong>Frontend:</strong> React 18, TypeScript, Vite</li>
-  <li><strong>Stil:</strong> Tailwind CSS, shadcn/ui</li>
-  <li><strong>AI:</strong> Gemini API</li>
-  <li><strong>Grafik:</strong> Chart.js</li>
-  <li><strong>Dosya İşleme:</strong> Papaparse, xlsx-parser</li>
-</ul>
-
-<hr/>
-
-<h2>📁 Proje Yapısı</h2>
-
-<pre><code>verigpt/
-├── src/
-│   ├── components/   # UI bileşenleri
-│   ├── pages/        # Sayfalar
-│   ├── hooks/        # Özel hook'lar
-│   ├── lib/          # Yardımcı metodlar
-│   └── types/        # TS tanımları
-</code></pre>
-
-<hr/>
-
-<h2>🤝 Katkıda Bulunmak</h2>
-
-<ol>
-  <li>Repository'yi fork edin</li>
-  <li>Yeni bir branch oluşturun: <code>git checkout -b yeni-ozellik</code></li>
-  <li>Geliştirmelerinizi yapın ve commitleyin</li>
-  <li>Pull request gönderin</li>
-</ol>
-
-<hr/>
-
-<h2>📚 SSS</h2>
-
-<h4>VeriGPT ücretsiz mi?</h4>
-<p>Evet. Açık kaynaklıdır ve MIT lisansı ile sunulmaktadır.</p>
-
-<h4>Verilerim güvende mi?</h4>
-<p>Evet. Tüm işlemler tarayıcıda yapılır, sunucuya veri gönderilmez.</p>
-
-<h4>Büyük veri destekliyor mu?</h4>
-<p>Web sürümünde maksimum 10MB. Yerel kurulumda sınır donanımınıza bağlıdır.</p>
-
-<hr/>
-
-<h2>🪪 Lisans</h2>
-<p><strong>MIT Lisansı</strong> altında sunulmaktadır. Detaylar için <code>LICENSE</code> dosyasını inceleyin.</p>
-<p><strong>⚠️ Not:</strong> Eğitim ve araştırma içindir. Ticari kullanımda lütfen izin alınız.</p>
-
-<hr/>
-
-<h2>📬 İletişim</h2>
-
-<p>Her türlü soru ve katkı için:</p>
-<ul>
-  <li>📧 <a href="mailto:irfansemihdogru@outlook.com">irfansemihdogru@outlook.com</a></li>
-  <li>👤 Proje Sahibi: <strong>İrfan Semih Doğru</strong></li>
-</ul>
+</body>
+</html>
