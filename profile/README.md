@@ -31,7 +31,7 @@
     <li><strong>Frontend:</strong> React 18, TypeScript, Vite</li>
     <li><strong>UI:</strong> Tailwind CSS, shadcn/ui</li>
     <li><strong>Yapay Zeka:</strong> Google Gemini API (doğal dil işleme)</li>
-    <li><strong>Grafikler:</strong> Chart.js (çizgi, çubuk, pasta, dağılım grafikleri)</li>
+    <li><strong>Grafikler:</strong> Recharts (çizgi, çubuk, pasta, dağılım grafikleri)</li>
     <li><strong>Dosya İşleme:</strong> CSV ve Excel (XLS, XLSX) parser kütüphaneleri</li>
   </ul>
 
